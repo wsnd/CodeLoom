@@ -144,11 +144,14 @@ fun LicenseScreen() {
 1. ✅ LICENSE - Main project license
 2. ✅ NOTICE - Attribution notices
 3. ✅ THIRD-PARTY-LICENSES - Complete dependency list
-4. ✅ Build scripts showing dynamic linking (for LGPL compliance)
+4. ✅ Build scripts and the `sora-editor` submodule source (for LGPL compliance)
 
 **Key points to emphasize:**
-- Sora Editor is dynamically linked via Maven (not modified)
-- Users can replace the library (LGPL requirement satisfied)
+- Sora Editor is included as a source-level git submodule (a fork of
+  Rosemoe/sora-editor) and is built from source by Gradle
+- The fork contains local modifications; the modified source is published
+  in this repository (LGPL obligation satisfied)
+- Users can rebuild or replace the library (LGPL requirement satisfied)
 - App code remains separate from LGPL components
 - All attributions are properly maintained
 
@@ -178,9 +181,9 @@ fun LicenseScreen() {
 - ✅ Retain copyright notices
 
 ### For LGPL v2.1 (Sora Editor):
-- ✅ Dynamic linking (via Maven/AAR)
-- ✅ Allow user to replace library
-- ✅ Provide build scripts
+- ✅ Ship the library source (git submodule `sora-editor`)
+- ✅ Document local modifications to the library
+- ✅ Allow user to rebuild / replace library (Gradle build scripts)
 - ✅ Include LGPL license text
 - ✅ State user's rights
 - ❌ NOT required: Open source your app code

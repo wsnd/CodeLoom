@@ -1,6 +1,6 @@
 [submodule "sora-editor"]
 	path = sora-editor
-	url = https://github.com/massivemadness/sora-editor.git
+	url = https://github.com/wsnd/sora-editor.git
 	shallow = true
 [submodule "cpython"]
 	path = cpython

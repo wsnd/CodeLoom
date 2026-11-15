@@ -14,14 +14,22 @@ to all the developers and contributors who made this possible.
 - **Copyright:** Black Squircle UI
 - **Repository:** https://github.com/black-squircle/squircle-ce
 
+**Note:** This application is based on Squircle CE by massivemadness
+(https://github.com/massivemadness/Squircle-CE) and extends it with
+additional features. The Apache 2.0 license of the base project is
+retained.
+
 ### Sora Editor
 - **License:** GNU Lesser General Public License v2.1 (LGPL-2.1)
 - **Copyright:** Rosemoe
 - **Repository:** https://github.com/Rosemoe/sora-editor
 
-**Note:** This app uses Sora Editor for code editing functionality. Under
-LGPL v2.1, you have the right to replace this library with a modified version.
-Build scripts are available in our GitHub repository.
+**Note:** This app uses Sora Editor for code editing functionality. The
+library is included as a source-level git submodule (a fork of
+Rosemoe/sora-editor) and is built from source by Gradle. The fork contains
+local modifications; the modified source is published in this repository.
+Under LGPL v2.1, you have the right to rebuild or replace this library
+with a modified version.
 
 ### Python Runtime
 - **License:** Python Software Foundation License

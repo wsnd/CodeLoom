@@ -1,1 +1,1 @@
-Squircle CE - Koodieditori
+CodeLoom - Code Editor

@@ -70,8 +70,8 @@ A: Yes. We include proper attribution in the app and repository:
 
 **Q: Does the app use any restricted libraries?**
 A: The app uses Sora Editor under LGPL v2.1, which permits:
-   - Dynamic linking (used via Maven dependency)
-   - User's right to replace the library
+   - Building the library from its published source (git submodule)
+   - User's right to rebuild or replace the library
    - Our app code remains proprietary/closed source
    This is fully compliant with LGPL requirements.
 
@@ -89,7 +89,8 @@ GPL-2.0 requires us to make the source of that program available, which we do:
 LGPL (Sora Editor) additionally requires:
    - Allow library replacement (we do)
    - Provide build scripts (we do)
-   - If we modified the library, share those changes (we didn't modify it)
+   - If we modified the library, share those changes (we do — the modified
+     fork is published as the `sora-editor` submodule of this repository)
 Our app code can remain Apache-2.0 while being fully compliant.
 
 ---
