@@ -23,7 +23,7 @@ object Directories {
 
     // region CACHE
 
-    /** /data/data/com.blacksquircle.ui/cache/documents */
+    /** /data/data/com.codeloom/cache/documents */
     fun documentsDir(context: Context): File {
         val directory = File(context.cacheDir, "documents")
         if (!directory.exists()) {
@@ -32,7 +32,7 @@ object Directories {
         return directory
     }
 
-    /** /data/data/com.blacksquircle.ui/cache/tmp */
+    /** /data/data/com.codeloom/cache/tmp */
     fun tmpDir(context: Context): File {
         val directory = File(context.cacheDir, "tmp")
         if (!directory.exists()) {
@@ -45,7 +45,7 @@ object Directories {
 
     // region FILES
 
-    /** /data/data/com.blacksquircle.ui/files/fonts */
+    /** /data/data/com.codeloom/files/fonts */
     fun fontsDir(context: Context): File {
         val directory = File(context.filesDir, "fonts")
         if (!directory.exists()) {
@@ -54,7 +54,7 @@ object Directories {
         return directory
     }
 
-    /** /data/data/com.blacksquircle.ui/files/themes */
+    /** /data/data/com.codeloom/files/themes */
     fun themesDir(context: Context): File {
         val directory = File(context.filesDir, "themes")
         if (!directory.exists()) {
@@ -63,7 +63,7 @@ object Directories {
         return directory
     }
 
-    /** /data/data/com.blacksquircle.ui/files/keys */
+    /** /data/data/com.codeloom/files/keys */
     fun keysDir(context: Context): File {
         val directory = File(context.filesDir, "keys")
         if (!directory.exists()) {

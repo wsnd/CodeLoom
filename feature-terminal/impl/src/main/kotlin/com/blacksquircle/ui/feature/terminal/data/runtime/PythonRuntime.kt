@@ -94,7 +94,7 @@ echo "---"
 # Try multiple methods to execute Python
 
 # Method 1: Try am startservice
-am startservice --user 0 -a com.blacksquircle.ui.ACTION_EXECUTE_PYTHON_FROM_TERMINAL -e file_path "${'$'}SCRIPT_PATH" -n com.blacksquircle.ui/com.blacksquircle.ui.feature.editor.service.PythonExecutionService >/dev/null 2>&1
+am startservice --user 0 -a com.codeloom.ACTION_EXECUTE_PYTHON_FROM_TERMINAL -e file_path "${'$'}SCRIPT_PATH" -n com.codeloom/com.blacksquircle.ui.feature.editor.service.PythonExecutionService >/dev/null 2>&1
 SERVICE_STARTED=${'$'}?
 
 if [ ${'$'}SERVICE_STARTED -eq 0 ]; then

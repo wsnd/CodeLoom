@@ -155,8 +155,8 @@ internal class TaskService : ComponentService() {
 
     companion object {
 
-        const val ACTION_START_TASK = "com.blacksquircle.ui.ACTION_START_TASK"
-        const val ACTION_CANCEL_TASK = "com.blacksquircle.ui.ACTION_CANCEL_TASK"
+        const val ACTION_START_TASK = "com.codeloom.ACTION_START_TASK"
+        const val ACTION_CANCEL_TASK = "com.codeloom.ACTION_CANCEL_TASK"
         const val ARG_TASK_ID = "ARG_TASK_ID"
 
         private const val CHANNEL_ID = "file-explorer"

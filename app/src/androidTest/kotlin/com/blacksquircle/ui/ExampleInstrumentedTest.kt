@@ -28,6 +28,6 @@ class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.blacksquircle.ui", appContext.packageName)
+        assertEquals("com.codeloom", appContext.packageName)
     }
 }
